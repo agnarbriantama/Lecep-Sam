@@ -1,0 +1,19 @@
+html,
+
+body{
+background-image: url(https://dafunda.com/wp-content/uploads/2016/02/Sunset-National-Park-Flat-Wallpaper-Flat-2.jpeg);
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 6px;
+}
+form{
+width: 500px;
+border: 2px solid #ccc;
+padding: 30px;
+background-image: url(https://cdn.pixabay.com/photo/2016/08/03/14/07/wooden-background-1566749_960_720.jpg);
+background-size: cover;
+border-radius: 15px
+ }
+  

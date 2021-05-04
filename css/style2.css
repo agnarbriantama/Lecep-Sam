@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+	margin-top: 0;
+	font-family: sans-serif;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.medsos{
+	padding: 5px 0;
+	background-color:#556B2F;
+}
+.medsos	ul li {
+	display: inline-block;
+	color: white;
+	margin-right: 10px;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+header{
+}
+header h1{
+	float: left;
+	padding: 15px 0px;
+	color: #556B2F;
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color:#556B2F;
+	color: #fff;
+}
+.active{
+	background-color: #556B2F;
+	color: #fff;
+}
+.banner{
+	height: 60vh;
+	background-image: url(../img/pecel.jpg);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after{
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgb(85, 107, 47);
+}
+section{
+	padding: 50px 0;
+}
+section h3{
+	text-align: center;
+	padding: 20px 0;
+	color:#556B2F;
+}
+.about p{
+	color:#556B2F;
+	word-spacing: 2px;
+	line-height: 25px;
+}
+.contact{
+	background-color: #556B2F;
+}
+footer{
+	padding: 30px 0;
+	background-color: #556B2F;
+	color: #FFFFFF;
+	text-align: center;
+}

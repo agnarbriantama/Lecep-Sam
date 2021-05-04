@@ -1,0 +1,87 @@
+body{
+	background-image: url(https://imgcdn.rri.co.id/__srct/b763d32e20ec5d473fd182b5c78d0964/817450/IMG-20200409-WA0033.jpg?v=1.0.3);
+	background-size: 1700px 720px;
+}
+
+h1{
+	font-family: fantasy;
+}
+
+table{
+	background-color: white;
+}
+
+*{
+	padding: 0;
+	margin-top: 0;
+	font-family: sans-serif;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.medsos{
+	padding: 5px 0;
+	background-color:#8B4513;
+}
+.medsos	ul li {
+	display: inline-block;
+	color: White;
+	margin-right: 10px;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+header{
+}
+header h1{
+	float: left;
+	padding: 15px 0px;
+	color: #8B4513;
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color:#8B4513;
+	color: #fff;
+}
+.active{
+	background-color: #8B4513;
+	color: #fff;
+}
+section{
+	padding: 50px 0;
+}
+section h2{
+	text-align: center;
+	padding: 20px 0;
+	color:#8B4513;
+}
+.about p{
+	color:#8B4513;
+	word-spacing: 2px;
+	line-height: 25px;
+}
+.contact{
+	background-color: #8B4513;
+}
+footer{
+	padding: 30px;
+	background-color: #8B4513;
+	color: #FFFFFF;
+	text-align: center;
+}
